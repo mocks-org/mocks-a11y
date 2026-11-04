@@ -1,6 +1,6 @@
 {
 	"$schema": "./node_modules/wrangler/config-schema.json",
-	"name": "mocks-dev",
+	"name": "mocks",
 	"compatibility_date": "2026-10-23",
 	"compatibility_flags": ["nodejs_als"],
 	"main": ".svelte-kit/cloudflare/_worker.js",
@@ -8,6 +8,7 @@
 		"binding": "ASSETS",
 		"directory": ".svelte-kit/cloudflare"
 	},
+	"previews": {},
 	"workers_dev": true,
 	"preview_urls": true
 }
