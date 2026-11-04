@@ -1,0 +1,8 @@
+allowBuilds:
+  workerd: true
+  esbuild: true
+engineStrict: true
+peerDependencyRules:
+  allowedVersions:
+    # Target only runed's peer dependency requirement for SvelteKit:
+    'runed>@sveltejs/kit': '3'
