@@ -11,10 +11,12 @@
 	"d1_databases": [
 		{
 			"binding": "DB",
-			"database_name": "REPLACE_WITH_YOUR_DATABASE_NAME",
-			"database_id": "REPLACE_WITH_YOUR_DATABASE_ID"
+			"database_name": "mocks-db",
+			"database_id": "22966f10-4bab-429c-a097-8452b5bb120e",
+			"migrations_dir": "drizzle"
 		}
 	],
+	"previews": {},
 	"workers_dev": true,
 	"preview_urls": true
 }
